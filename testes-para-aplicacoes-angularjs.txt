@@ -30,5 +30,5 @@ git push -u origin master
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 Passos:
-1) Clonar repositório: 
+1) Clonar repositório:
     git clone --bare https://github.com/rogerpaes/AngularJS-Testing-Article.git

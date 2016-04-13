@@ -29,10 +29,6 @@ git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-Import code
-
-
-
 Passos:
 1) Clonar repositório: 
     git clone --bare https://github.com/rogerpaes/AngularJS-Testing-Article.git
