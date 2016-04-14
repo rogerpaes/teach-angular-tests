@@ -1,17 +1,13 @@
-jasminte - testing framework
-
+jasmine - testing framework
 
 karma - unit tests (task runner)
 protractor - end to end tests (task runner)
 
-
+Tutorial do GIT: http://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 
 
 Quick setup — if you’ve done this kind of thing before
-or	
- HTTPS
- SSH
 	
 We recommend every repository include a README, LICENSE, and .gitignore.
 …or create a new repository on the command line
