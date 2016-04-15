@@ -6,11 +6,7 @@ angular.module('livroApp').controller('LivroController', ['$scope', '$state', '$
 angular.module('livroApp').controller('LivroNovoController', ['$scope', '$state', '$stateParams', 'LivroService', 'AutorService', function($scope, $state, $stateParams, LivroService, AutorService) {
   $scope.livro = new LivroService();
   $scope.autores = AutorService.query();
-
-  var a = function assim(params) {
-    
-  };
-  
+ 
   $scope.criarLivro = function() {
     $scope.livro.$save(
       function() {
