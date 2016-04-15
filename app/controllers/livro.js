@@ -7,6 +7,10 @@ angular.module('livroApp').controller('LivroNovoController', ['$scope', '$state'
   $scope.livro = new LivroService();
   $scope.autores = AutorService.query();
 
+  var a = function assim(params) {
+    
+  };
+  
   $scope.criarLivro = function() {
     $scope.livro.$save(
       function() {
